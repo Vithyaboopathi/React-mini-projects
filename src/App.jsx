@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Bio from "./components/Bio.jsx";
-import Greeting from "./components/greeting.jsx";
+import Greeting from "./components/Greeting.jsx";
 import Counter from "./components/Counter.jsx";
 import HobbiesList from "./components/HobbiesList.jsx";
 import Welcome from "./components/welcome.jsx";
