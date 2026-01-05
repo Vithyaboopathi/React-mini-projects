@@ -3,13 +3,13 @@ import Bio from "./components/Bio.jsx";
 import Greeting from "./components/Greeting.jsx";
 import Counter from "./components/Counter.jsx";
 import HobbiesList from "./components/HobbiesList.jsx";
-import Welcome from "./components/welcome.jsx";
-import Boolean from "./components/Boolean.jsx";
+import Welcome from "./components/Welcome.jsx";
 import Increment from "./components/Increment";
 import Timer from "./components/Timer.jsx";
+import HelloMessage from "./components/HelloMessage";
 
 function App() {
-  const [hobbies, setHobbies] = useState(["Reading", "Traveling", "Coding"]);
+  const [hobbies] = useState(["Reading", "Traveling", "Coding"]);
 
   return (
     <div className="app">
@@ -22,7 +22,7 @@ function App() {
       <Counter />
       <HobbiesList hobbies={hobbies} />
       <Welcome />
-      <Boolean />
+      <HelloMessage />
       <Increment />
       <Timer />
     </div>
