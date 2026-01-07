@@ -7,6 +7,10 @@ import Welcome from "./components/Welcome.jsx";
 import Increment from "./components/Increment";
 import Timer from "./components/Timer.jsx";
 import HelloMessage from "./components/HelloMessage";
+import TaskManager from "./components/TaskManager.jsx";
+import StudentsMarks from "./components/StudentsMarks.jsx";
+import GreetingMessage from "./components/GreetingMessage.jsx";
+import NumberFilter from "./components/NumberFilter.jsx";
 
 function App() {
   const [hobbies] = useState(["Reading", "Traveling", "Coding"]);
@@ -25,6 +29,10 @@ function App() {
       <HelloMessage />
       <Increment />
       <Timer />
+      <TaskManager />
+      <StudentsMarks />
+      <GreetingMessage />
+      <NumberFilter />
     </div>
   );
 }
